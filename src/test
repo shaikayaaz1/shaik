@@ -1,0 +1,29 @@
+import java.util.scanner;
+
+  public class GETSTUDENTDETAILS
+  {
+
+     public static void main(String[]args)
+     {
+       string name;
+       int roll; mat, phy;
+
+
+
+       Scanner Sc=new Scanner(System.in)
+       System.out.println("Enter name:");
+       name=SC.nextLine();
+       System.out.println("Enter roll:");
+       name=SC.nextLine();
+       System.out.println("Enter phy:");
+       name=SC.nextLine();
+       System.out.println("Enter marks in Mat; phy:");
+       Mat=SC.nextInt();
+       Phy=SC.nextInt();
+
+       int total= Mat+phy;
+       float perc =(float) total /300  *100;
+
+       System.out.println("Enter roll:" + roll +" \tname:" +name);
+       System.out.println("Marks (Maths,physics):" +Maths +"," +physics);
+       System.out.println("Total:" + total +"\t
